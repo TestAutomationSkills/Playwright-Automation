@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Playwright generated reports
+playwright-report/
+test-results/
+
+# Allure generated reports and results
+allure-report/
+allure-results/
+
+# Custom generated reports
+my-reports/
+
+# Environment files
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
