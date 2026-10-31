@@ -17,6 +17,8 @@ test('New tab', async({browser})=>{
 
     ])
 
+    console.log("You are under NewTab Test");
+
     await newPage.locator("//span[text()='Email address or phone number']").fill("23121");
 
     await newPage.pause();
